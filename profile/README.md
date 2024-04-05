@@ -1,6 +1,12 @@
-## Hi there 👋
+Genome Function Initiative Oxford is a GitHub repository for all Welcome Discovery Award related projects.
+
+This is a joint collaboration between [Hughes]([https://github.com/Genome-Function-Initiative-Oxford/UpStreamPipeline/tree/main/genetics/CATCH-UP](https://www.rdm.ox.ac.uk/about/our-divisions/nuffield-division-of-clinical-laboratory-sciences/nuffield-division-of-clinical-laboratory-sciences-research/hughes-group)) and [Davies](https://www.imm.ox.ac.uk/research/research-groups/davies-group-genome-function-and-advanced-cellular-therapy-development) Groups at the [MRC Weatherall Institute of Molecular Medicine (MRC WIMM)](https://www.imm.ox.ac.uk/), University of Oxford.
+
 
 <!--
+
+## Hi there 👋
+
 
 **Here are some ideas to get you started:**
 
