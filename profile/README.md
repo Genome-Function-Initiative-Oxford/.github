@@ -1,22 +1,21 @@
-Genome Function Initiative Oxford is a GitHub repository for all Welcome Discovery Award related projects.
+# Genome Function Initiative Oxford
 
-This is a joint collaboration between [Hughes](https://www.rdm.ox.ac.uk/about/our-divisions/nuffield-division-of-clinical-laboratory-sciences/nuffield-division-of-clinical-laboratory-sciences-research/hughes-group) and [Davies](https://www.imm.ox.ac.uk/research/research-groups/davies-group-genome-function-and-advanced-cellular-therapy-development) Groups at the MRC Weatherall Institute of Molecular Medicine ([MRC WIMM](https://www.imm.ox.ac.uk/)), University of Oxford.
+The Genome Function Initiative Oxford brings together projects supported by the Wellcome Discovery Award. It is a collaboration between the [Hughes Group](https://www.rdm.ox.ac.uk/about/our-divisions/nuffield-division-of-clinical-laboratory-sciences/nuffield-division-of-clinical-laboratory-sciences-research/hughes-group) and the [Davies Group](https://www.imm.ox.ac.uk/research/research-groups/davies-group-genome-function-and-advanced-cellular-therapy-development) at the [MRC Weatherall Institute of Molecular Medicine (MRC WIMM)](https://www.imm.ox.ac.uk/), University of Oxford.
 
-Here are some tools that we made publicly available:
-+ [UpStreamPipeline](https://github.com/Genome-Function-Initiative-Oxford/UpStreamPipeline): "upstream" includes the necessary steps to go from raw data output (usually fastq files) to a format which is visually interpretable by a researcher (e.g., bigwigs). These upstream pipelines allow wet-lab scientists to reproducibly analyse their own data without needing any prior knowledge of bioinformatics. These pipelines are built using the snakemake framework and designed to be both user-friendly and to combat the issue of reproducibility in genomic data analysis. Among these pipelines:
-  + [CATCH-UP](https://dx.doi.org/10.3791/65633): A High-Throughput Upstream-Pipeline for Bulk ATAC-Seq and ChIP-Seq Data, Published on 22/09/2023.
-+ [REgulamentary](https://github.com/Genome-Function-Initiative-Oxford/REgulamentary): a Python-based Snakemake pipeline built to genome-wide annotate cis-regulatory elements, from sequenced data, in a cell-type specific manner. Currently under revision.
+## Public repositories
 
-<!--
-
-## Hi there 👋
-
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- [.github](https://github.com/Genome-Function-Initiative-Oxford/.github) contains the organisation profile README displayed on this GitHub page.
+- [ALTSPLICE](https://github.com/Genome-Function-Initiative-Oxford/ALTSPLICE) contains neural network models for predicting alternative splicing.
+- [CREST-GV](https://github.com/Genome-Function-Initiative-Oxford/CREST-GV) ranks cell types for sets of genetic variants by measuring their enrichment in open chromatin profiles. It includes a collection of cell-type peak data and can also use appropriately formatted in-house data.
+- [chromatin-bigwig-qc](https://github.com/Genome-Function-Initiative-Oxford/chromatin-bigwig-qc) provides machine-learning-based quality control for chromatin accessibility bigWig tracks. It scores tracks using biologically grounded genomic features.
+- [EdsTools](https://github.com/Genome-Function-Initiative-Oxford/EdsTools) provides BEDTools-style utilities for combining VCF variants with genomic regions and reference sequence, including retrieving the allele sequence most represented in a peak.
+- [MCCGeneSkew](https://github.com/Genome-Function-Initiative-Oxford/MCCGeneSkew) contains an analysis pipeline for detecting allele-specific skew in POINT-seq data, using phased variants to assess allelic signal in genes linked to Micro-Capture-C regions.
+- [REnformer](https://github.com/Genome-Function-Initiative-Oxford/REnformer) is a deep-learning model that predicts cell-type-specific chromatin accessibility from DNA sequence. It uses transfer learning with single-cell ATAC-seq data and supports regulatory variant effect analysis.
+- [REgulamentary](https://github.com/Genome-Function-Initiative-Oxford/REgulamentary) is a Python and Snakemake pipeline for genome-wide, cell-type-specific annotation of cis-regulatory elements, including enhancers, promoters and CTCF-associated regions. It is currently under revision.
+- [scATAC-Pseudobulk-Pipeline](https://github.com/Genome-Function-Initiative-Oxford/scATAC-Pseudobulk-Pipeline) is a Snakemake workflow that splits single-cell ATAC-seq BAM files into pseudobulk replicates and generates indexes, bigWigs and peak calls.
+- [UpStreamPipeline](https://github.com/Genome-Function-Initiative-Oxford/UpStreamPipeline) provides Snakemake workflows that turn raw sequencing data, usually FASTQ files, into formats researchers can interpret, such as bigWig files. The pipelines support reproducible analysis by wet-lab scientists without requiring prior bioinformatics experience. Available workflows include:
+  - **CATCH-UP** is a high-throughput pipeline for bulk ATAC-seq and ChIP-seq data ([publication](https://doi.org/10.3791/65633), published 22 September 2023).
+  - **Calibrated ChIP-seq** supports comparisons across experimental and biological conditions using rigorous normalisation.
+  - **tCaptureC** analyses Capture-C and Tiled Capture-C data.
+  - **Bulk RNA-seq** analyses bulk RNA-seq data using STAR.
+- [Zone-Equalisation-Normalisation](https://github.com/Genome-Function-Initiative-Oxford/Zone-Equalisation-Normalisation) (ZEN-norm) is a Python package for normalising genomic signal bigWigs, reversing prior normalisation, and comparing normalisation methods.
