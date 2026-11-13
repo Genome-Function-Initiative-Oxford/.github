@@ -4,7 +4,6 @@ The Genome Function Initiative Oxford brings together projects supported by the 
 
 ## Public repositories
 
-- [.github](https://github.com/Genome-Function-Initiative-Oxford/.github) contains the organisation profile README displayed on this GitHub page.
 - [ALTSPLICE](https://github.com/Genome-Function-Initiative-Oxford/ALTSPLICE) contains neural network models for predicting alternative splicing.
 - [CREST-GV](https://github.com/Genome-Function-Initiative-Oxford/CREST-GV) ranks cell types for sets of genetic variants by measuring their enrichment in open chromatin profiles. It includes a collection of cell-type peak data and can also use appropriately formatted in-house data.
 - [chromatin-bigwig-qc](https://github.com/Genome-Function-Initiative-Oxford/chromatin-bigwig-qc) provides machine-learning-based quality control for chromatin accessibility bigWig tracks. It scores tracks using biologically grounded genomic features.
