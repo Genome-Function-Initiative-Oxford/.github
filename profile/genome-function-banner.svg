@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+  <title id="title">Genome Function Initiative Oxford</title>
+  <desc id="desc">Abstract DNA helix and regulatory network on a deep blue background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101d31"/>
+      <stop offset=".58" stop-color="#123449"/>
+      <stop offset="1" stop-color="#14535b"/>
+    </linearGradient>
+    <linearGradient id="helixA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#79e0d0"/>
+      <stop offset="1" stop-color="#38a9b7"/>
+    </linearGradient>
+    <linearGradient id="helixB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0bd79"/>
+      <stop offset="1" stop-color="#f28e77"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#5bd4c4" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#5bd4c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="440" rx="28" fill="url(#bg)"/>
+  <circle cx="1310" cy="220" r="330" fill="url(#glow)"/>
+  <path d="M0 350 C220 290 350 430 620 360 S1050 290 1600 340" fill="none" stroke="#9eddd0" stroke-opacity=".08" stroke-width="2"/>
+  <path d="M0 385 C220 325 360 465 640 395 S1070 325 1600 375" fill="none" stroke="#9eddd0" stroke-opacity=".06" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="112" y="165" fill="#a9d9d2" font-size="20" font-weight="700" letter-spacing="5">UNIVERSITY OF OXFORD</text>
+    <text x="108" y="238" fill="#ffffff" font-size="58" font-weight="700" letter-spacing=".5">GENOME FUNCTION</text>
+    <text x="112" y="292" fill="#ffffff" font-size="34" font-weight="400" letter-spacing="7">INITIATIVE</text>
+    <rect x="112" y="327" width="72" height="4" rx="2" fill="#f0bd79"/>
+    <text x="201" y="337" fill="#c1d4dc" font-size="16" font-weight="600" letter-spacing="3">GENOMICS · REGULATORY BIOLOGY · OPEN TOOLS</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M1050 70 C1220 105 1220 170 1390 205 S1560 300 1390 340 S1220 385 1050 415" stroke="url(#helixA)" stroke-width="5"/>
+    <path d="M1390 70 C1220 105 1220 170 1050 205 S880 300 1050 340 S1220 385 1390 415" stroke="url(#helixB)" stroke-width="5"/>
+    <g stroke="#e6edf0" stroke-opacity=".42" stroke-width="2">
+      <path d="M1096 82 L1344 82"/><path d="M1142 102 L1298 102"/>
+      <path d="M1181 132 L1259 132"/><path d="M1207 170 L1233 170"/>
+      <path d="M1210 205 L1230 205"/><path d="M1184 244 L1256 244"/>
+      <path d="M1146 282 L1294 282"/><path d="M1102 319 L1338 319"/>
+      <path d="M1061 353 L1379 353"/><path d="M1050 385 L1390 385"/>
+    </g>
+  </g>
+  <g fill="#d7eee8" opacity=".86">
+    <circle cx="1050" cy="70" r="5"/><circle cx="1390" cy="70" r="5"/>
+    <circle cx="1390" cy="415" r="5"/><circle cx="1050" cy="415" r="5"/>
+  </g>
+  <g fill="#f0bd79" opacity=".72">
+    <circle cx="1480" cy="125" r="3"/><circle cx="980" cy="300" r="3"/>
+    <circle cx="1462" cy="332" r="3"/><circle cx="1010" cy="142" r="3"/>
+  </g>
+</svg>
