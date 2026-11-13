@@ -30,7 +30,8 @@
     <text x="108" y="238" fill="#ffffff" font-size="58" font-weight="700" letter-spacing=".5">GENOME FUNCTION</text>
     <text x="112" y="292" fill="#ffffff" font-size="34" font-weight="400" letter-spacing="7">INITIATIVE</text>
     <rect x="112" y="327" width="72" height="4" rx="2" fill="#f0bd79"/>
-    <text x="201" y="337" fill="#c1d4dc" font-size="16" font-weight="600" letter-spacing="3">GENOMICS · REGULATORY BIOLOGY · OPEN TOOLS</text>
+    <text x="201" y="337" fill="#c1d4dc" font-size="16" font-weight="600" letter-spacing="3">GENOMICS · GENE REGULATION</text>
+    <text x="201" y="366" fill="#c1d4dc" font-size="16" font-weight="600" letter-spacing="3">BIOINFORMATICS · AI/ML · OPEN TOOLS</text>
   </g>
 
   <g fill="none" stroke-linecap="round">
