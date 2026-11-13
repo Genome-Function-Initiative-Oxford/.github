@@ -1,3 +1,5 @@
+![Genome Function Initiative Oxford](https://raw.githubusercontent.com/Genome-Function-Initiative-Oxford/.github/main/profile/genome-function-banner.svg)
+
 # Genome Function Initiative Oxford
 
 **Understanding genome function through collaborative research and open computational tools.**
