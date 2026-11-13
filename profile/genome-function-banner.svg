@@ -1,30 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
   <title id="title">Genome Function Initiative Oxford</title>
-  <desc id="desc">Abstract DNA helix and regulatory network on a deep blue background.</desc>
+  <desc id="desc">A clean DNA double helix framed by a subtle orbit, on a navy background.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#101d31"/>
-      <stop offset=".58" stop-color="#123449"/>
-      <stop offset="1" stop-color="#14535b"/>
-    </linearGradient>
-    <linearGradient id="helixA" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#79e0d0"/>
-      <stop offset="1" stop-color="#38a9b7"/>
-    </linearGradient>
-    <linearGradient id="helixB" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#f0bd79"/>
-      <stop offset="1" stop-color="#f28e77"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#5bd4c4" stop-opacity=".2"/>
-      <stop offset="1" stop-color="#5bd4c4" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101d31"/><stop offset=".58" stop-color="#123449"/><stop offset="1" stop-color="#14535b"/></linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ce8d7"/><stop offset="1" stop-color="#38a9b7"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe09a"/><stop offset="1" stop-color="#ec9d68"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#5bd4c4" stop-opacity=".2"/><stop offset="1" stop-color="#5bd4c4" stop-opacity="0"/></radialGradient>
   </defs>
   <rect width="1600" height="440" rx="28" fill="url(#bg)"/>
-  <circle cx="1310" cy="220" r="330" fill="url(#glow)"/>
-  <path d="M0 350 C220 290 350 430 620 360 S1050 290 1600 340" fill="none" stroke="#9eddd0" stroke-opacity=".08" stroke-width="2"/>
-  <path d="M0 385 C220 325 360 465 640 395 S1070 325 1600 375" fill="none" stroke="#9eddd0" stroke-opacity=".06" stroke-width="2"/>
-
+  <circle cx="1300" cy="220" r="330" fill="url(#glow)"/>
+  <path d="M0 350 C220 290 350 430 620 360 S1050 290 1600 340" fill="none" stroke="#9eddd0" stroke-opacity=".07" stroke-width="2"/>
+  <path d="M0 385 C220 325 360 465 640 395 S1070 325 1600 375" fill="none" stroke="#9eddd0" stroke-opacity=".05" stroke-width="2"/>
   <g font-family="Arial, Helvetica, sans-serif">
     <text x="112" y="165" fill="#a9d9d2" font-size="20" font-weight="700" letter-spacing="5">UNIVERSITY OF OXFORD</text>
     <text x="108" y="238" fill="#ffffff" font-size="58" font-weight="700" letter-spacing=".5">GENOME FUNCTION</text>
@@ -33,24 +19,17 @@
     <text x="201" y="337" fill="#c1d4dc" font-size="16" font-weight="600" letter-spacing="3">GENOMICS · GENE REGULATION</text>
     <text x="201" y="366" fill="#c1d4dc" font-size="16" font-weight="600" letter-spacing="3">BIOINFORMATICS · AI/ML · OPEN TOOLS</text>
   </g>
-
   <g fill="none" stroke-linecap="round">
-    <path d="M1050 70 C1220 105 1220 170 1390 205 S1560 300 1390 340 S1220 385 1050 415" stroke="url(#helixA)" stroke-width="5"/>
-    <path d="M1390 70 C1220 105 1220 170 1050 205 S880 300 1050 340 S1220 385 1390 415" stroke="url(#helixB)" stroke-width="5"/>
-    <g stroke="#e6edf0" stroke-opacity=".42" stroke-width="2">
-      <path d="M1096 82 L1344 82"/><path d="M1142 102 L1298 102"/>
-      <path d="M1181 132 L1259 132"/><path d="M1207 170 L1233 170"/>
-      <path d="M1210 205 L1230 205"/><path d="M1184 244 L1256 244"/>
-      <path d="M1146 282 L1294 282"/><path d="M1102 319 L1338 319"/>
-      <path d="M1061 353 L1379 353"/><path d="M1050 385 L1390 385"/>
-    </g>
+    <circle cx="1300" cy="220" r="177" stroke="#83d7cd" stroke-opacity=".20" stroke-width="2"/>
+    <path d="M 1376.67 76 L 1223.33 76" stroke="#9bded2" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1391.97 110 L 1208.03 110" stroke="#f0bd79" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1250.20 144 L 1349.80 144" stroke="#9bded2" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1193.48 178 L 1406.52 178" stroke="#f0bd79" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1411.98 246 L 1188.02 246" stroke="#f0bd79" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1192.13 314 L 1407.87 314" stroke="#f0bd79" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1254.45 348 L 1345.55 348" stroke="#9bded2" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1300.00 58 C 1331.28 64.67, 1362.30 71.33, 1383.23 78 C 1404.16 84.67, 1414.66 91.33, 1411.39 98 C 1408.12 104.67, 1391.14 111.33, 1365.83 118 C 1340.53 124.67, 1307.31 131.33, 1276.71 138 C 1246.12 144.67, 1218.64 151.33, 1203.01 158 C 1187.37 164.67, 1183.82 171.33, 1193.48 178 C 1203.15 184.67, 1225.87 191.33, 1254.45 198 C 1283.02 204.67, 1316.98 211.33, 1345.55 218 C 1374.13 224.67, 1396.85 231.33, 1406.52 238 C 1416.18 244.67, 1412.63 251.33, 1396.99 258 C 1381.36 264.67, 1353.88 271.33, 1323.29 278 C 1292.69 284.67, 1259.47 291.33, 1234.17 298 C 1208.86 304.67, 1191.88 311.33, 1188.61 318 C 1185.34 324.67, 1195.84 331.33, 1216.77 338 C 1237.70 344.67, 1268.72 351.33, 1300.00 358 C 1331.28 364.67, 1362.30 371.33, 1383.23 378 C 1387.42 379.33, 1391.21 380.67, 1394.56 382" stroke="url(#teal)" stroke-width="7"/>
+    <path d="M 1300.00 58 C 1268.72 64.67, 1237.70 71.33, 1216.77 78 C 1195.84 84.67, 1185.34 91.33, 1188.61 98 C 1191.88 104.67, 1208.86 111.33, 1234.17 118 C 1259.47 124.67, 1292.69 131.33, 1323.29 138 C 1353.88 144.67, 1381.36 151.33, 1396.99 158 C 1412.63 164.67, 1416.18 171.33, 1406.52 178 C 1396.85 184.67, 1374.13 191.33, 1345.55 198 C 1316.98 204.67, 1283.02 211.33, 1254.45 218 C 1225.87 224.67, 1203.15 231.33, 1193.48 238 C 1183.82 244.67, 1187.37 251.33, 1203.01 258 C 1218.64 264.67, 1246.12 271.33, 1276.71 278 C 1307.31 284.67, 1340.53 291.33, 1365.83 298 C 1391.14 304.67, 1408.12 311.33, 1411.39 318 C 1414.66 324.67, 1404.16 331.33, 1383.23 338 C 1362.30 344.67, 1331.28 351.33, 1300.00 358 C 1268.72 364.67, 1237.70 371.33, 1216.77 378 C 1212.58 379.33, 1208.79 380.67, 1205.44 382" stroke="url(#gold)" stroke-width="7"/>
   </g>
-  <g fill="#d7eee8" opacity=".86">
-    <circle cx="1050" cy="70" r="5"/><circle cx="1390" cy="70" r="5"/>
-    <circle cx="1390" cy="415" r="5"/><circle cx="1050" cy="415" r="5"/>
-  </g>
-  <g fill="#f0bd79" opacity=".72">
-    <circle cx="1480" cy="125" r="3"/><circle cx="980" cy="300" r="3"/>
-    <circle cx="1462" cy="332" r="3"/><circle cx="1010" cy="142" r="3"/>
-  </g>
+  <g fill="#d7eee8" opacity=".9"><circle cx="1300" cy="43" r="4"/><circle cx="1300" cy="397" r="4"/></g>
 </svg>
